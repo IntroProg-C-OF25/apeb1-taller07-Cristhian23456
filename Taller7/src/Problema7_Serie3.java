@@ -12,9 +12,7 @@ public class Problema7_Serie3 {
         String serie = "sumatoria = "; 
 
         while (i <= 10) {
-            serie += (i == 1 ? String.format("-(1/%d)", i): (i % 2 == 0 ? String.format("+(1/%d)", i) : String.format("-(1/%d)", i)));
-
-            /*
+           
             if (i == 1) {
                 serie += String.format("-(1/%d)", i); 
             } else {
@@ -24,7 +22,7 @@ public class Problema7_Serie3 {
                     serie += String.format("-(1/%d)", i); 
                 }
             }
-            */
+           
             i++;
         }
         System.out.println(serie);
