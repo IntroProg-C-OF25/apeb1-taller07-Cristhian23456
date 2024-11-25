@@ -10,6 +10,15 @@ Nombre 4	5	$4	$20
 Nombre 5	12	$2	$24
  * @author Cristhian Quizhpe
  */
+/***
+Utilice el formato de "String.format"para crear cadedas de texto con un formato de madera controlada, se prodria decie que remmplaza el "printf" con la diferencia de que el string.format()
+crea y devuelve una nueva cadena formateada, en cuando al printf esta obligado a la impresion de los datos de salida.
+String saludo = String.format("Hola, %s!", "Juan");
+System.out.println(saludo); // Hola, Juan!
+
+// Usando printf
+System.out.printf("Hola, %s!", "Juan"); // Hola, Juan!
+*/
 import java.util.Scanner;
 
 public class Problema3_Reporte {
